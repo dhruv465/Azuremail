@@ -1,0 +1,60 @@
+.section-title h2{
+  padding-bottom: 10px;
+
+}
+.contact form {
+    width: 100%;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+  }
+  
+  .contact form .form-group {
+    padding-bottom: 8px;
+  }
+  
+ 
+
+  .contact form input,
+  .contact form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    outline: none;
+    width: 100%;
+  }
+  
+  .contact form input {
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid black;
+  }
+  
+  input::placeholder,
+  textarea::placeholder {
+    font-family: "Nunito", sans-serif;
+  }
+
+  .contact form textarea {
+    padding: 10px 12px;
+    border: none;
+    border-bottom: 1px solid black;
+  }
+  
+  .contact form button[type=submit] {
+    background: #61dafb;
+    border: 0;
+    padding: 10px 24px;
+    color: #000000;
+    transition: 0.4s;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact form button[type=submit]:hover {
+    background: #a0eaff;
+    color: rgb(0, 0, 0);
+  }
+
+ 
